@@ -13,6 +13,7 @@
 		13703B0E1B7C94F100F65DB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13703B0D1B7C94F100F65DB4 /* Images.xcassets */; };
 		13703B111B7C94F100F65DB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13703B0F1B7C94F100F65DB4 /* LaunchScreen.xib */; };
 		13703B1D1B7C94F200F65DB4 /* ConndividiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13703B1C1B7C94F200F65DB4 /* ConndividiTests.swift */; };
+		13703B271B7C950200F65DB4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13703B261B7C950200F65DB4 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		13703B161B7C94F200F65DB4 /* ConndividiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConndividiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13703B1B1B7C94F200F65DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13703B1C1B7C94F200F65DB4 /* ConndividiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConndividiTests.swift; sourceTree = "<group>"; };
+		13703B261B7C950200F65DB4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13703B271B7C950200F65DB4 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		13703AF81B7C94F100F65DB4 = {
 			isa = PBXGroup;
 			children = (
+				13703B261B7C950200F65DB4 /* Social.framework */,
 				13703B031B7C94F100F65DB4 /* Conndividi */,
 				13703B191B7C94F200F65DB4 /* ConndividiTests */,
 				13703B021B7C94F100F65DB4 /* Products */,
